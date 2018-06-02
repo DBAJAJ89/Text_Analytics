@@ -4,6 +4,8 @@ if (!require(lattice)){install.packages("lattice")}
 if (!require(igraph)){install.packages("igraph")}
 if (!require(ggraph)){install.packages("ggraph")}
 if (!require(wordcloud)){install.packages("wordcloud")}
+if (!require(shiny)){install.packages("shiny")}
+if (!require(shinythemes)){install.packages("shinythemes")}
 
 library(udpipe)
 library(textrank)
@@ -13,3 +15,5 @@ library(ggraph)
 library(ggplot2)
 library(wordcloud)
 library(stringr)
+library(shiny)
+library(shinythemes)
